@@ -1,0 +1,29 @@
+body{
+  background-color: #ffffff;
+  font-family:"Open-Sans";
+}
+.outer-border{
+  background-color: #b4b3b3;
+  color: #000000;
+  margin-top: 2em;
+  border-radius: 2em;
+}
+h1, p, #timeline-brief, #more-info{
+  text-align: center;
+}
+
+#img-div{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction:column;
+
+}
+
+#image{
+  width: 250px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
